@@ -4,14 +4,15 @@ import Search from "./Search.jsx";
 
 const Header = () => {
     return (
-        <div>
+        <>
             <div className={"header"}>
-                <p>Header</p>
+                 <h1 className={"title"}>Notes</h1>
+                 <button className={"toggle-btn"}>Toggle Button</button>
             </div>
             <div>
                 <Search />
             </div>
-        </div>
+        </>
     );
 }
 
